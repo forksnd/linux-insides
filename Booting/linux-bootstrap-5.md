@@ -483,7 +483,7 @@ Once the relocations are applied, the decompressor code jumps to the kernel entr
 
 Now we are in the kernel 🎉🎉🎉
 
-The kernel entrypoint is the `start_kernel` function from [init/main.c](https://github.com/torvalds/linux/blob/master/init/main.c). This is our next stop, but it will be in the next set of chapters - [Kernel initialization process](https://github.com/0xAX/linux-insides/tree/master/Initialization).
+The kernel entrypoint is the `startup_64` function from [arch/x86/kernel/head_64.S](https://github.com/torvalds/linux/blob/master/arch/x86/kernel/head_64.S). This is our next stop, but it will be in the next set of chapters - [Kernel initialization process](https://github.com/0xAX/linux-insides/tree/master/Initialization).
 
 ## Conclusion
 
